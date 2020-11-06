@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./formstyle.css">
+</head>
+<body>
+        <h1>Survey Form</h1>
+        <form>
+            <fieldset>
+            <legend>Let us know how we can improve freeCodeCamp</legend>
+            <div class="col">
+                <div class="field right-align ">
+                    <label for="name"><strong><sup>. </sup>Name: </strong></label>
+                </div>
+                <div class="field content">
+                    <div>
+                        <input id="name" type="text" placeholder="Enter your name">
+                    </div>
+                </div>       
+            </div>
+            <div class="col">
+                <div class="field  right-align">
+                        <label for="email"><strong><sup>. </sup>Email: </strong></label>
+                </div>
+                <div class="field content">
+                    <div>
+                        <input id="email" type="email" placeholder="Enter your Email">
+                    </div>
+                </div>       
+            </div>
+            <div class="col">
+                <div class="field right-align">
+                    <label for="age"><strong><sup>. </sup>Age:</strong></label>     
+                </div>
+                <div class="field content">
+                    <div>
+                        <input id="age" type="number" placeholder="Age">
+                    </div>
+                </div>       
+            </div>
+            <div class="col">
+                <div class="field right-align"> 
+                    <label><strong>Which option best describes your current role?</strong></label>
+                </div>
+                <div class="field content">
+                    <div>
+                        <select name="student" >
+                            <option>Student</option>
+                            <option>Teacher</option>
+                            <option>Developer</option>    
+                       </select>
+                    </div>
+                </div>            
+            </div>
+            <div class="col">
+                <div class="field right-align">
+                    <label for="recommend"><span><strong><sup>. </sup>How likely you would recommend freeCodeCamp to a friend?</strong></span> </label>
+                </div>
+                <div class="field content">
+                    <div>
+                        <input id="recommend" name="recommned" type="radio" ><span><strong>Definitely</strong></span><br>  
+                    </div>
+                    <div><input id="recommend" name="recommned" type="radio" ><span><strong>Maybe</strong></span><br>
+                    </div>
+                    <div>
+                        <input id="recommend" name="recommned" type="radio" ><span><strong>Not sure</strong></span>
+                   </div>
+                </div>
+            </div>
+             <div class="col">
+                 <div class="field right-align" >
+                    <label><strong>What do you like most in FCC:</strong></label>
+                </div>
+                <div class="field content">
+                    <div>
+                        <select name="student" >
+                            <option>Select an option</option>
+                            <option>Coding</option>
+                            <option>Web Development</option>
+                            <option>App Development</option>                   
+                        </select>
+                    </div>
+                </div>
+             </div>
+             <br>
+             <div class="col">
+                 <div class="field right-align">
+                    <label><strong>Things that should be improved in the future (Check all that apply):</strong></label>
+                 </div>
+                 <div class="field content">
+                    <div>
+                        <label for="fp">
+                            <input id="fp" type="checkbox"><strong>Front-end Projects</strong></label><br>
+                    </div>
+                     <div><label for="bp">
+                        <input id="bp" type="checkbox"><strong>Back-end Projects</strong></label><br>
+                    </div>
+                     <div><label for="dv" >
+                        <input id="dv" type="checkbox"><strong>Data Visualization</strong></label><br>
+                    </div>
+                     <div> <label for="c" >
+                        <input id="c" type="checkbox"><strong> Challenges</strong></label><br>
+                    </div>
+                     <div> <label for="osc" >
+                        <input id="osc" type="checkbox"><strong>Open Source Community</strong></label><br>
+                    </div>
+                    <div><label for="ghr" >    
+                           <input id="ghr" type="checkbox"><strong>Glitter help rooms</strong></label><br></div>
+                    <div><label for="v" >
+                        <input id="v" type="checkbox"><strong>Videos</strong></label><br>
+                    </div>
+                    <div><label for="cm" >
+                        <input id="cm" type="checkbox"><strong>City Meetups</strong></label><br>
+                    </div>
+                    <div><label for="w" >
+                        <input id="w" type="checkbox"><strong> Wiki</strong></label><br>
+                    </div>
+                    <div> <label for="f" >
+                        <input id="f" type="checkbox"><strong> Forum</strong></label><br>
+                    </div>
+                    <div><label for="ac" >
+                        <input id="ac" type="checkbox"><strong> Additional Courses</strong></label><br>
+                     </div>                        
+                 </div>
+            </div>
+            <div class="col">
+                <div class="field right-align">
+                    <label><span><strong>Any Comments or Suggestions?</strong></label>
+                </div>
+                <div class="field content">
+                    <div>
+                        <textarea rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+                    </div>
+                </div>
+            </div>
+             <button>Submit</button>
+            </fieldset>
+        </form>   
+</body>
+</html>
